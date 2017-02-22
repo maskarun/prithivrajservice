@@ -22,6 +22,13 @@
 	      margin: auto;
 	  }
   </style>
+<script>
+$(window).load(function () {
+    $("#1").append('<img src="themes/images/gallery/IMG-WA0001.jpg">');
+    $("#2").append('<img src="themes/images/gallery/IMG-WA0002.jpg">');
+
+});
+</script>
 </head>
 <body>
 <section id="headerSection">
@@ -78,7 +85,11 @@
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 					<!-- Wrapper for slides -->
 				    <div class="carousel-inner" role="listbox">
-				      <div class="item">
+				      <div class="item" id="1">
+				      </div>
+				      <div class="item" id="2">
+				      </div>
+				  <!--<div class="item">
 				        <img src="themes/images/gallery/IMG-WA0001.jpg">
 				      </div>
 				      <div class="item">
@@ -107,7 +118,7 @@
 				      </div>
 				      <div class="item">
 				        <img src="themes/images/gallery/IMG-WA0010.jpg">
-				      </div>
+				      </div> -->
 				    </div>
 			
 				    <!-- Left and right controls -->
