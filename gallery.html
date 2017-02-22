@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -15,6 +15,13 @@
 	<link href="themes/css/font-awesome.css" rel="stylesheet" type="text/css">
 	<link href="themes/css/base.css" rel="stylesheet" type="text/css">
 	<style type="text/css" id="enject"></style>
+	<style>
+	  .carousel-inner > .item > img,
+	  .carousel-inner > .item > a > img {
+	      width: 70%;
+	      margin: auto;
+	  }
+  </style>
 </head>
 <body>
 <section id="headerSection">
@@ -26,13 +33,13 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				<h1><a class="brand" href="index.html"> Prithviraj Engineering <small> Service</small></a></h1>
+				<h1><a class="brand" href="index.html">Prithviraj Engineering <small> Service.</small></a></h1>
 				<div class="nav-collapse collapse">
 					<ul class="nav pull-right">
 						<li class=""><a href="index.html">Home	</a></li>
-						<li class=""><a href="services.html">Our Services</a></li>  
+						<li class=""><a href="services.html">Our Service</a></li>  
 						<li class=""><a href="about_us.html">About us</a></li>
-						<li class=""><a href="gallery.html">Our Gallery</a></li>
+						<li class="active"><a href="gallery.html">Our Gallery</a></li>
 <!--						<li class="dropdown">-->
 <!--							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Features<b class="caret"></b></a>-->
 <!--							<ul class="dropdown-menu">-->
@@ -41,7 +48,7 @@
 <!--							</ul>-->
 <!--						</li>-->
 <!--						<li class=""><a href="blog.html">Blog</a></li>-->
-						<li class="active"><a href="contact.html">Support</a></li>
+						<li class=""><a href="contact.html">Support</a></li>
 					</ul>
 				</div>
 			</div>
@@ -49,57 +56,72 @@
 	</div>
 </section>
 <!--Header Ends================================================ -->
-<section id="mapSection"> 
-<div id="myMap" style="height:400px">
-<!-- please edit in (js code which is available in the foote section) longitude and longitude of your location  -->
-</div>	
-</section>
+<!-- Page banner -->
+<section id="bannerSection" style="background:url(themes/images/banner/aboutus.png) no-repeat center center #000;">
+	<div class="container" >	
+		<h1 id="pageTitle">Gallery
+		<!--<span class="pull-right toolTipgroup">
+			<a href="#" data-placement="top" data-original-title="Find us on via facebook"><img style="width:45px" src="themes/images/facebook.png" alt="facebook" title="facebook"></a>
+			<a href="#" data-placement="top" data-original-title="Find us on via twitter"><img style="width:45px" src="themes/images/twitter.png" alt="twitter" title="twitter"></a>
+			<a href="#" data-placement="top" data-original-title="Find us on via youtube"><img style="width:45px" src="themes/images/youtube.png" alt="youtube" title="youtube"></a>
+		</span>
+		--></h1>
+	</div>
+</section> 
 <!-- Page banner end -->
-
-<section id="bodySection"> 	
-	<div class="container">					
+<section id="bodySection">	
+	<div class="container">	
 	<div class="row">
-			<div class="span4">
-				<h3>  Mailing Address </h3>	
-				Old No - 2/572, New No - 2/600<br>
-				Pandian Nagar, Pallavan Street<br>
-				Thuraipakkam<br> 
-				Chennai - 600 097<br>
-				Tamil Nadu, India<br>
-				﻿Tel : 8248139711 / 9884463660<br/>
-			</div>
-			<div class="span4">
-					<h3> Opening Hours</h3>
-					<h4> Monday - Friday</h4>
-					09:00am - 09:00pm<br/><br/>
-					<h4>Saturday</h4>
-					09:00am - 07:00pm<br/><br/>
-					<h4>Sunday</h4>
-					12:30pm - 06:00pm<br/><br/>
-			</div>
-			<div class="span4">
-				<h3>  Email Us</h3>
-				<form class="form-horizontal">
-				<fieldset>
-				  <div class="control-group">
-					  <input type="text" placeholder="name" class="input-xlarge"/>
-				  </div>
-				   <div class="control-group">
-					  <input type="text" placeholder="email" class="input-xlarge"/>
-				  </div>
-				   <div class="control-group">
-					  <input type="text" placeholder="subject" class="input-xlarge"/>
-				  </div>
-				  <div class="control-group">
-					  <textarea rows="4" id="textarea" class="input-xlarge"></textarea>
-				  </div>
- 				<button class="btn btn-large" type="submit"> <i class="icon-envelope"></i> Send Message</button>
-				</fieldset>
-			  </form>
+		<div class="span12">
+			<div class="well well-small" style="text-align:left">
+				<h3>Gallery</h3>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Wrapper for slides -->
+				    <div class="carousel-inner" role="listbox">
+				      <div class="item">
+				        <img src="themes/images/gallery/IMG-WA0001.jpg">
+				      </div>
+				      <div class="item">
+				        <img src="themes/images/gallery/IMG-WA0002.jpg">
+				      </div>
+				      <div class="item">
+				        <img src="themes/images/gallery/IMG-WA0003.jpg">
+				      </div>
+				      <div class="item">
+				        <img src="themes/images/gallery/IMG-WA0004.jpg">
+				      </div>
+				      <div class="item">
+				        <img src="themes/images/gallery/IMG-WA0005.jpg">
+				      </div>
+				      <div class="item">
+				        <img src="themes/images/gallery/IMG-WA0006.jpg">
+				      </div>
+				      <div class="item">
+				        <img src="themes/images/gallery/IMG-WA0007.jpg">
+				      </div>
+				      <div class="item">
+				        <img src="themes/images/gallery/IMG-WA0008.jpg">
+				      </div>
+				      <div class="item">
+				        <img src="themes/images/gallery/IMG-WA0009.jpg">
+				      </div>
+				      <div class="item">
+				        <img src="themes/images/gallery/IMG-WA0010.jpg">
+				      </div>
+				    </div>
+			
+				    <!-- Left and right controls -->
+				    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    </a>
+				    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    </a>
+			  	</div>
 			</div>
 		</div>
-
-		</div>
+	</div>
+	</div>
 </section>
 <!-- Footer  ================================================== -->
 <section id="footerSection">
@@ -134,10 +156,7 @@
 	</footer>
 </div>
 </section>
-
 <a href="#" class="btn" style="position: fixed; bottom: 38px; right: 10px; display: none; " id="toTop"> <i class="icon-arrow-up"></i> Go to top</a>
-<!-- Javascript
-    ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 	<script src="themes/js/jquery-1.8.3.min.js"></script>
@@ -145,31 +164,5 @@
 	<script src="themes/js/bootstrap-tooltip.js"></script>
     <script src="themes/js/bootstrap-popover.js"></script>
 	<script src="themes/js/business_ltd_1.0.js"></script>
- 
-	 <!-- Google map jquery files -->
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-	<script src="themes/js/jquery.gmap.js"></script>
-	<script>
-		// Google map data ==============================================================================
-	  $(document).ready(function(){
-		$("#myMap").gMap({ controls: false,
-						  scrollwheel: false,
-			  draggable: true,
-		  markers: [{ latitude: 37.748582,  		//your company location latitude 
-					  longitude: -122.418411,		//your company location longitude
-					  icon: { image: "http://www.google.com/mapfiles/marker.png",
-							  iconsize: [42, 48],
-							  iconanchor: [42,48],
-							  infowindowanchor: [14, 0] } },
-					],
-		  icon: { image: "http://www.google.com/mapfiles/marker.png", 
-				  iconsize: [28, 48],
-				  iconanchor: [14, 48],
-				  infowindowanchor: [14, 0] },
-		  latitude: 37.748582,
-		  longitude: -122.418411,
-		  zoom: 16, });
-	  });
-	</script>
 </body>
 </html>
